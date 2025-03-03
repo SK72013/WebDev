@@ -1,0 +1,667 @@
+<html>
+
+<head>
+    <title>
+        Chef
+    </title>
+    <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/previews/011/874/816/non_2x/chef-logo-design-illustration-restaurant-logo-vector.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+        }
+
+        .nav {
+            display: flex;
+            color: white;
+            background-color: crimson;
+            padding: 5px;
+            justify-content: space-between;
+            box-shadow: 3px 3px 6px gray;
+        }
+
+        .brand {
+            display: flex;
+            gap: 20px;
+            margin-left: 30px;
+        }
+
+        .logo {
+            border-radius: 20px;
+        }
+
+        .navitem {
+            display: flex;
+            gap: 50px;
+            list-style: none;
+        }
+
+        .item {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            margin-top: 15px;
+            margin-right: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .item:hover {
+            color: black;
+        }
+
+        .name {
+            text-shadow: 2px 2px 5px black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+
+        .poster {
+            background-image: url("https://img.freepik.com/premium-photo/restaurant-food-restaurant-menu-photos-menu_830198-777.jpg");
+            height: 350px;
+            padding: 2px;
+            margin-top: 5px;
+        }
+
+        .text {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            font-size: 85px;
+            background-color: rgba(0, 0, 0, 0, 75);
+            border-radius: 50px;
+        }
+
+        .text2 {
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            background-color: crimson;
+            width: 160px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            border: 2px solid white;
+            box-shadow: 3px 3px 5px gray;
+            border-radius: 30px;
+            margin: 30px;
+
+        }
+
+        .card-image {
+            border: 2px solid white;
+            box-shadow: 1px 2px 5px black;
+            border-radius: 20px;
+        }
+
+        .row {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .row2 {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .card-price {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .card-button {
+            background-color: crimson;
+            border: 3px solid white;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+            font-size: 15px;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        .about-text {
+
+            text-align: center;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 23px;
+
+            background-color: crimson;
+
+            color: white;
+
+            padding: 1px;
+
+            margin-top: 5px;
+
+            margin-bottom: 10px;
+
+            text-shadow: 3px 3px 5px black;
+
+        }
+
+        .about-des {
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 18px;
+
+            margin: 10px;
+
+            display: flex;
+
+            gap: 5px;
+
+        }
+
+        .img1,
+        .img2 {
+
+            border-radius: 10px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="brand">
+            <img class="logo" height="85px" width="85px"
+                src="https://static.vecteezy.com/system/resources/previews/011/874/816/non_2x/chef-logo-design-illustration-restaurant-logo-vector.jpg">
+            <h1 class="name">Chef</h1>
+        </div>
+        <div class="items">
+            <ul class="navitem">
+                <a class="item" href="#">
+                    <li>Contract</li>
+                </a>
+                <a class="item" href="#">
+                    <li>Menu</li>
+                </a>
+                <a class="item" href="#">
+                    <li>About Us</li>
+                </a>
+
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="poster">
+        <h1 class="text">Welcome to Chef</h1>
+    </div>
+    <div>
+        <h1 class="text2">Continental Cusine</h1>
+    </div>
+    <div class="row">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.spicebangla.com/wp-content/uploads/2024/08/Spicy-Pasta-recipe-optimised-scaled.webp">
+            <h4 class="card-name">Pasta</h4>
+            <h4 class="card-price"> ৳250</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.pillsbury.in/wp-content/uploads/2021/09/Chocolate-Pancake.jpg">
+            <h4 class="card-name">Pan Cake</h4>
+            <h4 class="card-price"> ৳399</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg">
+            <h4 class="card-name">Pizza</h4>
+            <h4 class="card-price"> ৳500</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.lugaris.com/app/uploads/2024/06/appetizing-spanish-tapas-with-anchovies-and-shrimp-2023-11-27-05-12-43-utc-3-1280x853.webp">
+            <h4 class="card-name">Tapas</h4>
+            <h4 class="card-price"> ৳699</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.spicebangla.com/wp-content/uploads/2024/06/chicken-mayo-sandwich-grill.jpg">
+            <h4 class="card-name">Chicken Sandwich</h4>
+            <h4 class="card-price"> ৳210</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+    <div class="row2">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://feelgoodfoodie.net/wp-content/uploads/2024/12/Roasted-Chicken-Garlic-Herbs-06.jpg">
+            <h4 class="card-name">Full Roasted Chicken</h4>
+            <h4 class="card-price"> ৳700</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvBSYpdrmjC6s63P5oWgTiU4gPl36dkdVfQ&s">
+            <h4 class="card-name">Chicken Burger</h4>
+            <h4 class="card-price"> ৳499</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://feelgoodfoodie.net/wp-content/uploads/2024/10/French-Onion-Soup-11.jpg">
+            <h4 class="card-name">French Onion Soup</h4>
+            <h4 class="card-price"> ৳450</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDKFMqk2plHE9Fx7YMazAZSVQa2Ff64tfkTeS09uEUWr4xqBBjmmwS_ztYh-bhchAZAl8&usqp=CAU">
+            <h4 class="card-name">Roasted Potatoes</h4>
+            <h4 class="card-price"> ৳299</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://c.ndtvimg.com/2021-03/s8q2h2po_french-fries_625x300_17_March_21.jpg?im=FaceCrop,algorithm=dnn,width=384,height=384">
+            <h4 class="card-name">French fry</h4>
+            <h4 class="card-price"> ৳199</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <h1 class="text2">Korean Cusine</h1>
+    </div>
+    <div class="row">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/1200px-Dolsot-bibimbap.jpg">
+            <h4 class="card-name">Bibimbap</h4>
+            <h4 class="card-price"> ৳699</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://christieathome.com/wp-content/uploads/2024/01/Sundubu-Jjigae7.jpg">
+            <h4 class="card-name">Sundubu-jjigae</h4>
+            <h4 class="card-price"> ৳750</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.theepicureanmouse.com/wp-content/uploads/2023/08/bulgogi-fried-rice-featured-.jpg">
+            <h4 class="card-name">Bulgogi</h4>
+            <h4 class="card-price"> ৳450</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130" src="https://i.ytimg.com/vi/eTucCw1w6Ak/maxresdefault.jpg">
+            <h4 class="card-name">Kimchi</h4>
+            <h4 class="card-price"> ৳799</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkXtXLoIqxScXLbW39jw-nLqMMCT3YF4k1Q&s">
+            <h4 class="card-name">Samgyeopsal</h4>
+            <h4 class="card-price"> ৳599</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+    <div class="row2">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2024-09-tteokbokki%2Ftteokbokki-523">
+            <h4 class="card-name">Tteokbokki</h4>
+            <h4 class="card-price"> ৳650</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://sixhungryfeet.com/wp-content/uploads/2023/01/Vegan-Japchae-3.jpg">
+            <h4 class="card-name">Japchae</h4>
+            <h4 class="card-price"> ৳520</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PKCSkjhyrbAQq4CN0PpmC0h-v6N4N4XrTg&s">
+            <h4 class="card-name"> Kimchi-jjigae</h4>
+            <h4 class="card-price"> ৳750</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://hips.hearstapps.com/hmg-prod/images/190130-korean-fried-chicken-horizontal-041-1549304734.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*">
+            <h4 class="card-name">Korean fried chicken</h4>
+            <h4 class="card-price"> ৳450</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.seriouseats.com/thmb/oPPe_FUKlWcZn7xmXiLXmHS5e9k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__03__20190314-Samgyetang-vicky-wasik-17-865db4610ee740d986786b689d9fecb6.jpg">
+            <h4 class="card-name">Samgyetang</h4>
+            <h4 class="card-price"> ৳199</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <h1 class="text2">Chinese Cusine</h1>
+    </div>
+    <div class="row">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://lifeloveandgoodfood.com/wp-content/uploads/2023/03/chicken_fried_rice00032a-1200x1200-1.jpg">
+            <h4 class="card-name">Fried rice</h4>
+            <h4 class="card-price"> ৳699</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://images.getrecipekit.com/20221130023757-untitled-design-12-3.png?aspect_ratio=16:9&quality=90&">
+            <h4 class="card-name">Chow mein</h4>
+            <h4 class="card-price"> ৳299</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/11/19/0/MW612_pork-dumplings_s4x3.jpg.rend.hgtvcom.616.462.suffix/1605802271825.webp">
+            <h4 class="card-name">Dumplings</h4>
+            <h4 class="card-price"> ৳650</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://joyfoodsunshine.com/wp-content/uploads/2018/04/cashew-chicken-stir-fry-recipe-8-1.jpg">
+            <h4 class="card-name">Cashew Chicken Stir Fry</h4>
+            <h4 class="card-price"> ৳590</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://redhousespice.com/wp-content/uploads/2021/12/whole-spring-rolls-and-halved-ones-scaled.jpg">
+            <h4 class="card-name">Spring Rolls</h4>
+            <h4 class="card-price"> ৳150</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+    <div class="row2">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.seriouseats.com/thmb/pSgKgm8cI4f8OotIu9xihcpkvWE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/31.scallion-pancakes-beauty-shot-5219b2b53f51496199fde8fc7582c92b.jpg">
+            <h4 class="card-name">Scallion pancakes</h4>
+            <h4 class="card-price"> ৳440</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtH1g820nvNDzq_CpfqbkLl8nidveQrKyf0w&s">
+            <h4 class="card-name">Dim Sum</h4>
+            <h4 class="card-price"> ৳500</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDx6r6LLddqWonCV89P49egTbuQsM-_SN-Q&s">
+            <h4 class="card-name"> Peking duck</h4>
+            <h4 class="card-price"> ৳640</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://i0.wp.com/adashofsoy.com/wp-content/uploads/2020/12/thumb_DSC02426_1024-3.jpg?fit=1086%2C724&ssl=1">
+            <h4 class="card-name">Congee</h4>
+            <h4 class="card-price"> ৳330</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://i0.wp.com/wanderingchickpea.com/wp-content/uploads/2023/10/weeknight-potsticker-soup-6.jpg?fit=735%2C983&ssl=1">
+            <h4 class="card-name">Wonton Soup</h4>
+            <h4 class="card-price"> ৳299</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <h1 class="text2">Japanese Cusine</h1>
+    </div>
+    <div class="row">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7s-v-9NCVkWFkcsgvsJf4FnClUlkh9gISsw&s">
+            <h4 class="card-name">Tonkatsu</h4>
+            <h4 class="card-price"> ৳710</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwG8x3ldhKYyRsyd_2qtPBAS9PRQJKzpj9xw&s">
+            <h4 class="card-name">Sushi</h4>
+            <h4 class="card-price"> ৳850</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://dishingouthealth.com/wp-content/uploads/2022/01/SpicyMisoRamen_Square.jpg">
+            <h4 class="card-name">Ramen </h4>
+            <h4 class="card-price"> ৳750</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.thespruceeats.com/thmb/CkzlxmRyeK8IUrMrHrbq73RX4g4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-tempura-for-fish-and-seafood-1300531-hero-01-bbd91b4ee23940749fec5ab7693eadcc.jpg">
+            <h4 class="card-name">Tempura</h4>
+            <h4 class="card-price"> ৳530</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7wT-GCN5FP4e36mYGF2KFhUpRbq8yBrSpQ&s">
+            <h4 class="card-name">Yakitori</h4>
+            <h4 class="card-price"> ৳299</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+    <div class="row2">
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://www.seriouseats.com/thmb/Yzy2xs8O2162a2dCFLVecWEjUjY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cold-soba-recipe-hero-290164d6d6114f338d513eb6da032ae8.jpg">
+            <h4 class="card-name">Soba</h4>
+            <h4 class="card-price"> ৳340</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZttP8tvCD_Tb1-Ghb3_bXJ9s3nzDW3AyoQ&s">
+            <h4 class="card-name">Unagi</h4>
+            <h4 class="card-price"> ৳500</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNp_OE-fwTkSiuH7rufoWKsypg-GG8X_rFw&s">
+            <h4 class="card-name"> Natto</h4>
+            <h4 class="card-price"> ৳240</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQyXhCkOfox1NjgfGvGarnQYsQuQKGXDbD5v-b6qFhq0OqYU0qUZKgowzhmgs7ismPXQ&usqp=CAU">
+            <h4 class="card-name">Karaage</h4>
+            <h4 class="card-price"> ৳430</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-image" height="130" width="130"
+                src="https://images.immediate.co.uk/production/volatile/sites/2/2015/05/8756.jpg?quality=90&resize=556,505">
+            <h4 class="card-name">Sashimi</h4>
+            <h4 class="card-price"> ৳699</h4>
+            <button class="card-button">Order Now</button>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <div class="about-text">
+
+        <h1>About US</h1>
+
+    </div>
+
+    <div class="about-des">
+
+        <p class="des">Chef is a culinary destination offering a contemporary twist on Multiple Cuisine. Our chefs are
+            dedicated to creating innovative dishes that tantalize the senses, using the finest ingredients and modern
+            techniques. We invite you to experience an unforgettable dining experience in our stylish and inviting
+            atmosphere.</p>
+
+        <img class="img1" height="200px" width="200px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Barbieri_-_ViaSophia25668.jpg/1200px-Barbieri_-_ViaSophia25668.jpg">
+
+        <img class="img2" height="200px" width="200px"
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D">
+
+    </div>
+
+
+</body>
+
+</html>
