@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Dom</title>
+    <Style>
+        body {
+            text-align: center;
+
+        }
+
+        .dark {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        
+        .light {
+            background-color: white;
+            color: black;
+
+        }
+        button{
+            margin-top: 200px;
+            padding: 20px;
+            border-radius: 30px;
+            background-color: crimson;
+            color: white;
+            border: 3px solid gold;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+      
+        
+    </Style>
+</head>
+
+<body id="box">
+
+    <button onclick="Mode()">
+        Dark/Light
+    </button>
+
+
+
+
+
+
+    <Script>
+    
+    const Body =document.getElementById("box");
+
+    function Mode(){
+        Body.classList.toggle('dark')
+    }
+
+    </Script>
+
+</body>
+
+
+
+</html>
