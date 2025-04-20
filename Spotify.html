@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Spotify</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-green-900 via-green-600 to-green-900">
+
+
+    <h1 class="text-center font-bold m-3 text-8xl ">Spotify</h1>
+
+    <div class="bg-green-400 w-130 h-80 p-5 text-center m-auto rounded-3xl border-2 border-black mt-10 ">
+        <iframe id="videoplayer" class="h-60 w-120 m-auto rounded-3xl border-2 border-black"
+            src="https://www.youtube.com/embed/60ItHLz5WEA?si=X8OmwI5aMSfz616A" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 id="name" class="text-2xl font-bold m-3 ">Alan Walker - Faded</h2>
+    </div>
+
+    <div id="musicList">
+
+    </div>
+
+
+
+
+
+    <script>
+
+        const songs = [
+            { name: "Alan Walker - Faded", 
+            src: "https://www.youtube.com/embed/60ItHLz5WEA?si=X8OmwI5aMSfz616A" ,
+
+            },
+
+            { name: "Alan Walker - The Spectre", 
+            src:"https://www.youtube.com/embed/wJnBTPUQS5A?si=qKlBhHSSxK5f0Mmc" ,
+
+             },
+
+            { name: "Alan Walker - Alone", 
+            src: "https://www.youtube.com/embed/1-xGerv5FOk?si=8ZC2lddAqV5BS5_Y" 
+            ,},
+
+        ];
+
+        const Player = document.getElementById("videoplayer");
+        const Name = document.getElementById("name");
+     
+
+        songs.forEach((song,index)=>{
+
+            const MusicList = document.getElementById("musicList");
+
+
+            const div = document.createElement("div");
+            const span = document.createElement("span");
+            const button = document.createElement("button");
+
+            span.textContent = song.name;
+            button.textContent = "| Play";
+
+            button.onclick = ()=>{
+                Name.textContent = song.name;
+                Player.src = song.src;
+            }
+
+        
+
+            div.appendChild(span);
+            div.appendChild(button);
+            MusicList.appendChild(div);
+
+
+
+
+        })
+
+    </script>
+
+</body>
+
+</html>
